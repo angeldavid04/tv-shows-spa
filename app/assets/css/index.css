@@ -1,0 +1,34 @@
+:root {
+  /* Typography */
+  --ff-header: "Raleway", "sans-serif";
+  --ff-main: "Merriweather Sans", "serif";
+  --fs-header: 2rem;
+  --fs-subtitle: 1.5rem;
+  --fs-text: 1rem;
+  --fs-link: 1rem;
+  --fs-card-title: 1.25rem;
+  /* Colors */
+  --clr-accent: #14a877;
+  --clr-primary: #1e1b4b;
+  --clr-secondary: #ff5722;
+  --clr-main-surface: #f8fafc;
+  --clr-card-surface: #fff;
+  --clr-secondary-text: #64748b;
+  --clr-primary-text: #0f172a;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--clr-main-surface);
+  overflow-y: auto;
+  scrollbar-gutter: both-edges;
+}
+
+.on-menu {
+  overflow-y: hidden;
+}
